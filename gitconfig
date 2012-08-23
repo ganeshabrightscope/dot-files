@@ -1,0 +1,43 @@
+[user]
+	name = Ganesha Bhaskara
+	email = ganesha.bhaskara@brightscope.com
+[core]
+	excludesfile = /Users/bhaskara/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Volumes/SourceTree/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[color]
+      ui = auto
+[core]
+  pager = less -R
+[color "diff"]
+  plain = normal
+  meta = bold
+  frag =      cyan
+  old = red
+  new = green
+  commit = yellow
+  whitespace = normal red
+[color "branch"]
+  current = green
+  local = normal
+  remote = red
+  plain         = normal
+[color "status"]
+  header = normal
+  added = red
+  updated = green
+  changed = red
+  untracked = red
+  nobranch = red
+[color "grep"]
+  match = normal
+[color "interactive"]
+  prompt = normal
+  header = normal
+  help = normal
+  error = normal
+    

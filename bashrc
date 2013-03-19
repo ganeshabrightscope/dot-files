@@ -81,3 +81,7 @@ On_IWhite='\e[0;107m'   # White
 PS1="$Blue\u@\h:\w$URed\$(parse_git_branch)\[\e[0m\]\$ "
 
 alias gl='git log --decorate --oneline --graph '
+alias gcm='git checkout master'
+alias gp='git pull'
+alias gum='gcm; gp'
+alias pullall='cd ~/workspace/BrightCore; gum; cd ~/workspace/Website; gum; cd ~/workspace/EnvConfig/; gum; cd ~/workspace/QA/; gum;'
